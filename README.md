@@ -8,7 +8,7 @@ This repository is part of the CS671 Deep Learning Hackathon. Participants were 
 3. **Webpage Development:** Develop a user-friendly webpage showcasing the practical application of the segmentation models.
 
 ## Model
-We trained an end-to-end U-Net architecture to identify bunches of grapes in farm images. The model was trained for 250 epochs.
+We trained an end-to-end U-Net architecture to identify bunches of grapes in farm images. The model was trained for *250 epochs*.
 
 ## Dataset
 A meticulously curated training dataset containing labeled high-resolution images of grape vineyards was provided to participants.
@@ -19,15 +19,10 @@ A meticulously curated training dataset containing labeled high-resolution image
 3. **Simple Architecture:** Easy to understand and implement.
 
 ## Results
-We achieved a Training IoU of 0.96 and a Validation IoU of 0.71 by the 250th epoch.
+We achieved a Training IoU of *0.96* and a Validation IoU of *0.71* by the 250th epoch.
 
 Here is a sample image and the mask generated from our model, which will be used to identify grape bunches in the field.
 
-![Sample Image](path_to_sample_image)
-![Generated Mask](path_to_generated_mask)
+![Sample Image](assets/1_original.png)
+![Generated Mask](assets/1_mask.png)
 
-## Usage
-To use the model and replicate the results, follow these steps:
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your_username/cs671-deep-learning-hackathon.git
