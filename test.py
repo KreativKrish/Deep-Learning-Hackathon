@@ -40,14 +40,14 @@ if __name__ == "__main__":
     )
     print(f"Using device: {device}")
     model = UNet(3,1).to(device)
-    model.load_state_dict(torch.load("/scratch/krishnad.sbb.iitmandi/Checkpoints/checkpoint_epoch_25.pt",map_location=device)['model_state_dict'])
+    model.load_state_dict(torch.load("/scratch/Checkpoints/checkpoint_epoch_25.pt",map_location=device)['model_state_dict'])
 
     # Set the model to evaluation mode
     model.eval()
 
     # Create output directory for final masks
-    input_dir = "/scratch/krishnad.sbb.iitmandi/Test_Final/images"
-    output_dir = "/scratch/krishnad.sbb.iitmandi/Test_Final/Masks/"
+    input_dir = "/scratch/Test_Final/images"
+    output_dir = "/scratch/Test_Final/Masks/"
     os.makedirs(output_dir, exist_ok=True)
 
     # Generate masks for images in the input folder and save them in the output folder

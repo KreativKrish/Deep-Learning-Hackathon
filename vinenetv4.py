@@ -408,7 +408,7 @@ if __name__ == "__main__":
     # optimizer = optim.SGD(model.parameters(), lr=0.1, momentum=0.9)
 
     # Directory to save checkpoints
-    checkpoint_dir = "/scratch/krishnad.sbb.iitmandi/Checkpoints/"
+    checkpoint_dir = "/scratch/Checkpoints/"
     os.makedirs(checkpoint_dir, exist_ok=True)
 
     train_model(model, train_loader, val_loader, loss_fn,optimizer, num_epochs=250,checkpoint_interval=25)
