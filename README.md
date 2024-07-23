@@ -1,5 +1,5 @@
 # CS671 Deep Learning Hackathon
-
+## VineNet
 This repository is part of the CS671 Deep Learning Hackathon. Participants were tasked with crafting a lightweight, fast deep learning model to precisely segment grape bunches in high-resolution vineyard images.
 
 ## Objectives
